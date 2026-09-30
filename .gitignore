@@ -1,0 +1,16 @@
+# ARC-AGI-2 solver — data is fetched, not committed.
+# 1,120 public task JSONs from the official repo; large, regenerable, and
+# already public. Track the fetch script instead of the bytes.
+
+data/
+!data/.gitkeep
+
+# local artefacts
+reports/*.json
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# notebooks / scratch
+*.ipynb_checkpoints/
+scratch/
